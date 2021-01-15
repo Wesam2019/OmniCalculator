@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Pythagoras</title>
+<meta name="viewport" content="initial-scale = 0.5">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+</head>
+<body>
+<div class="header">
+<div class="image">
+<a href="https://www.th-brandenburg.de/startseite/" target="_blank">
+<img class="img1-container" src="./img/THB_Logo.svg" alt="THB_Logo"
+height="100">
+</a>
+</div>
+<div class="text">
+<h2><span>Pythagoras</span></h2>
+</div>
+</div>
+<nav>
+<ul>
+<li> <a href="index.html" class="dropbtn">Home</a>
+</li>
+<li class="dropdown"> 
+<a href="Mathematical.html" class="dropbtn">Mathematical</a>
+<div class="dropdown-content">
+<a href="Quadratic_Equation.html">Quadratic Equation</a>
+<a href="Pythagoras.html">Pythagoras Theorem</a>
+</div>
+</li>
+<li class="dropdown">
+<a href="Medical.html" class="dropbtn">Medical</a>
+<div class="dropdown-content">
+<a href="Body_Mass_Index.html">Body Mass Index</a>
+<a href="Daily_Calories.html">Daily Calories</a>
+</div>
+</li>
+</ul>
+</nav>
+<br/>
+<br/>
+<div class="submit-bmi">
+<form method="GET" action="./cgi-bin/pygoras.cgi">
+<p><span style="color:red">Unknown side:</span></p>
+<select required name="unknown" >
+  <option value="">-</option>
+  <option value="a">a</option>
+  <option value="b">b</option>
+  <option value="c">c</option>
+</select>
+<br/><br/><br/>
+<p><span style="color:red">Known side:</span>
+<input type="number" name="side1"  required  placeholder="side 1"><br/></p> 
+<p><span style="color:red">Known side:</span>
+<input type="number" name="side2"  required  placeholder="side 2"><br/></p> 
+<br/>
+<input type="submit" name="submit" value="calculate"/>
+</form>
+</div>
+<br/>
+<br/>
+<footer>
+<nav>
+<ul>
+<li> <a href="https://informatik.th-brandenburg.de/~alshaiba/" target="_blank">
+Copyright &#x24B8; 2018 Wesam Al-Shaibani</a>
+</li>
+<li> <a href="https://pixabay.com/de/" target="_blank">
+Photos are copyright free </a>
+</li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
